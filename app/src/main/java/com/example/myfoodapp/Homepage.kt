@@ -12,12 +12,6 @@ class Homepage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_homepage)
 
-        val steveButton=findViewById<Button>(R.id.steveButton)
-        steveButton.setOnClickListener{
-            var Intent=Intent(this,MainActivity::class.java)
-        startActivity(Intent)
-            finish()
-        }
 
 
     }
